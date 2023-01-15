@@ -1,0 +1,62 @@
+en:
+  check: "Hoshi No Namida"
+  yes_: "Yes"
+  no_: "No"
+  bot_forbidden: Processing failed due to lack of authorization.
+  something_went_wrong: Something went wrong.
+  not_found: Resource not found.
+  errors:
+    bad_request:
+      title: Invalid request
+      description: I am unable to accommodate that request.
+    forbidden:
+      title: Forbidden
+      description: You are not authorized to do this.
+    not_found:
+      title: Not Found
+      description: Sorry, I didn't know what you were indicating.
+    too_many_requests:
+      title: Too Many Requests
+      description: I have too many requests and are in cool down.
+    internal_server_error:
+      title: Internal Server Error
+      description: |-
+        An error occurred during processing. If this error persists, please contact support.
+        %{error_text}
+    general: "Error message:\n```python\n${error_message}\n```"
+    transformer: "Value failed to process: `%{value}`."
+    translation: Language processing failed.
+    check_failure:
+      defualt: "Some consistency check failed.\nCode: %{code}"
+      no_private_message: This cannot be done by DM
+      missing_role: "You do not have the required role for execution.\nRoles required: %{mentions}"
+      missing_permissions: "You do not have the necessary authorization to do this.\nRequired Authority: %{permission_names}"
+      bot_missing_permissions: RT does not have the necessary permissions to do this.
+    after_can: "Execution will be available after %{time} seconds."
+  permissions:
+    administrator: Administrator
+    view_audit_log: View Audit Log
+    manage_guild: Manage Server
+    manage_roles: Manage Roles
+    manage_channels: Manage Channels
+    kick_members: Kick Members
+    ban_members: Ban Members
+    create_instant_invite: Create Instant Invite
+    change_nickname: Change Nickname
+    manage_nicknames: Manage Nickname
+    manage_emojis: Manage Emojis
+    manage_webhooks: manage Webhooks
+    manage_events: Manage Events
+    manage_threads: Manage Threads
+    use_slash_commands: Use Slash Commands
+    view_guild_insights: View Guild Insights
+    send_messages: Send Messages
+    send_tts_messages: Send TTS Messages
+    manage_messages: Manage Messages
+    embed_links: Embed Links
+    attach_files: Attach Files
+    read_message_history: Read Message History
+    mention_everyone: Mention Everyone
+    external_emojis: External Emojis
+    add_reactions: Add reactions
+  not_purchased: Since RT Plus was not purchased, the execution was aborted.

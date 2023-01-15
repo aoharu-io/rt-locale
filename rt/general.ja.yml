@@ -1,0 +1,20 @@
+ja:
+  ping_description: RTの通信状況を表示します。
+  language:
+    description: RTの言語設定を行います。
+    args:
+      target:
+        describe: 設定の対象です。
+        choices:
+          guild: サーバー
+          user: あなた
+      language_code:
+        describe: 設定する言語コードです。
+  purchase:
+    description: RTプラスの購入リンクを表示します。
+    reply:
+      content: 購入のご検討ありがとうございます。以下のボタンを押すことで購入画面に行くことができます。
+      yearly: 年額
+      monthly: 月額
+  is_plus:
+    description: サーバーにプラス版のRTが適用されているかどうかを表示します。

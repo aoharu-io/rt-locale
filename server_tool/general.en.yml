@@ -1,0 +1,4 @@
+en:
+  nsfw:
+    description: Switches the NSFW setting for the channel on which this command is executed.
+    error: NSFW settings are not available on this channel.

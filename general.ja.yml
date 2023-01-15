@@ -1,0 +1,62 @@
+ja:
+  check: "星のナミダ"
+  yes_: はい
+  no_: いいえ
+  bot_forbidden: 権限がないため処理に失敗しました。
+  something_went_wrong: 何かしらのエラーが発生しました。
+  not_found: リソースが見つかりませんでした。
+  errors: 
+    bad_request:
+      title: 無効なリクエスト
+      description: そのリクエストには対応することができません。
+    forbidden:
+      title: 禁止
+      description: あなたはこれを実行する権限がありません。
+    not_found:
+      title: 未知のリソース
+      description: すみませんが何を示しているのかわかりませんでした。
+    too_many_requests:
+      title: リクエスト過多
+      description: リクエストが多すぎるのでクールダウン中です。
+    internal_server_error:
+      title: 内部サーバーエラー
+      description: |-
+        処理中にエラーが発生しました。もしこのエラーが修正されないようでしたら、サポートまでご連絡お願いします。
+        %{error_message}
+    general: エラーメッセージ：\n```python\n${error_message}\n```
+    transformer: 処理に失敗した値：`%{value}`
+    translation: 言語処理に失敗しました。
+    check_failure:
+      default: 何かしらの整合性チェックに失敗しました。\nコード：%{}
+      no_private_message: DMでこれを実行することはできません。
+      missing_role: 実行に必要なロールをあなたは持っていません。\n必要なロール：%{mentions}
+      missing_permissions: あなたはこれを実行するのに必要な権限を持っていません。\n必要な権限：%{permission_names}
+      bot_missing_permissions: RTはこれを実行するのに必要な権限を持っていません。
+    after_can: "%{time}秒後に実行が可能となります。"
+  permissions:
+    administrator: 管理者
+    view_audit_log: 監査ログを表示
+    manage_guild: サーバーの管理
+    manage_roles: ロールの管理
+    manage_channels: チャンネルの管理
+    kick_members: メンバーをキック
+    ban_members: メンバーをBAN
+    create_instant_invite: 招待を作成
+    change_nickname: ニックネームの変更
+    manage_nicknames: ニックネームの管理
+    manage_emojis: 絵文字の管理
+    manage_webhooks: ウェブフックの管理
+    manage_events: イベントの管理
+    manage_threads: スレッドの管理
+    use_slash_commands: スラッシュコマンドの使用
+    view_guild_insights: テキストチャンネルの閲覧＆ボイスチャンネルの表示
+    send_messages: メッセージを送信
+    send_tts_messages: TTSメッセージを送信
+    manage_messages: メッセージの管理
+    embed_links: 埋め込みリンク
+    attach_files: ファイルを添付
+    read_message_history: メッセージ履歴を読む
+    mention_everyone: "@everyone、@here、全てのロールにメンション"
+    external_emojis: 外部の絵文字の使用
+    add_reactions: リアクションの追加
+  not_purchased: RTプラスを購入していないので、実行は中止されました。
