@@ -17,7 +17,7 @@ en:
       description: Sorry, I didn't know what you were indicating.
     too_many_requests:
       title: Too Many Requests
-      description: I have too many requests and are in cool down.
+      description: I have too many requests and I am in cool down.
     internal_server_error:
       title: Internal Server Error
       description: |-
