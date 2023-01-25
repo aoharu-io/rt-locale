@@ -1,0 +1,3 @@
+en:
+  reason: This person had a role in the past and the role keeper setting was ON.
+  on_join_log: The %{role_names} that were owned in the past are assigned to the %{target} of the new entrant.
