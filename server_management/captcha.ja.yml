@@ -1,4 +1,5 @@
 ja:
+  name: 認証
   on_success:
     reason: 認証に成功したため。
     event_log: 認証に成功したので%{name}にロールを付与しました。
