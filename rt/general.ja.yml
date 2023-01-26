@@ -18,3 +18,10 @@ ja:
       monthly: 月額
   is_plus:
     description: サーバーにプラス版のRTが適用されているかどうかを表示します。
+  help:
+    description: RTについての情報を表示します。
+    reply:
+      description: Rextが運営する高機能で高安定性を目指すBotです。
+      website: ウェブサイト
+      dashboard: ダッシュボード
+      document: 説明書
