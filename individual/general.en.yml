@@ -1,0 +1,18 @@
+en:
+  user:
+    description: Search for users and display their information.
+    describe_target: User's name or id
+    reply:
+      registered_at: Registration Date
+      avatar_url: Avatar URL
+      on_server: Information on the server
+      display_name: Display Name
+      joined_at: Joined at
+      connecting: Connecting Voice Channel
+  search:
+    description: Create a Google search URL.
+    describe_query: These are the keywords used in the search.
+  calculator:
+    description: Calculator.
+    describe_formula: Formula to calculate.
+    reply_error: The calculation could not be performed because of unavailable characters or incorrect formatting.

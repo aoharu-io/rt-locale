@@ -16,3 +16,11 @@ en:
       title: Your fortune is...
       footer: You can do it as many times as you want, but of course, you know what I mean.
       rare: What did you do? You can't usually pull this off.
+  game_package:
+    description: Create a collage image of the game package.
+    args:
+      describe:
+        type: The type of game console for the game package to be created.
+        material: This image is to be embedded in the game package image.
+    reply:
+      not_supported_file_type: That file type is not supported.
