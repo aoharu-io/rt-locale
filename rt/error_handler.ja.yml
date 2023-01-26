@@ -16,14 +16,14 @@ ja:
     description: |-
       処理中にエラーが発生しました。もしこのエラーが修正されないようでしたら、サポートまでご連絡お願いします。
       %{error_message}
-  general: エラーメッセージ：\n```python\n${error_message}\n```
+  general: "エラーメッセージ：\n%{error_message}"
   transformer: 処理に失敗した値：`%{value}`
   translation: 言語処理に失敗しました。
   check_failure:
-    default: 何かしらの整合性チェックに失敗しました。\nコード：%{}
+    default: "何かしらの整合性チェックに失敗しました。\nコード：%{code}"
     no_private_message: DMでこれを実行することはできません。
-    missing_role: 実行に必要なロールをあなたは持っていません。\n必要なロール：%{mentions}
-    missing_permissions: あなたはこれを実行するのに必要な権限を持っていません。\n必要な権限：%{permission_names}
+    missing_role: "実行に必要なロールをあなたは持っていません。\n必要なロール：%{mentions}"
+    missing_permissions: "あなたはこれを実行するのに必要な権限を持っていません。\n必要な権限：%{permission_names}"
     bot_missing_permissions: RTはこれを実行するのに必要な権限を持っていません。
     guild_only: サーバーでしかこのコマンドは実行できません。
   after_can: "%{time}秒後に実行が可能となります。"

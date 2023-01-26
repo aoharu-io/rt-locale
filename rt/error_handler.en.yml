@@ -16,7 +16,7 @@ en:
     description: |-
       An error occurred during processing. If this error persists, please contact support.
       %{error_text}
-  general: "Error message:\n```python\n${error_message}\n```"
+  general: "Error message:\n```python\n%{error_message}\n```"
   transformer: "Value failed to process: `%{value}`."
   translation: Language processing failed.
   check_failure:
