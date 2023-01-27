@@ -1,0 +1,6 @@
+ja:
+  name: ロールパネル
+  reason: ロールパネルを使ったため。
+  log: "%{name}に%{role_names}というロールを付与しました。"
+  select_role: ロールを選択
+  reset_roles: ロールをリセット

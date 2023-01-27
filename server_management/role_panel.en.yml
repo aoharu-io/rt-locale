@@ -1,0 +1,6 @@
+en:
+  name: Role Panel
+  reason: Due to the use of role panel.
+  log: I have added roles named %{role_names} to %{name}.
+  select_roles: Select Roles
+  reset_roles: Reset Roles
