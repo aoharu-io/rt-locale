@@ -46,6 +46,7 @@ en:
       item:
         label: Item
         default: SCOOOP!!!
+      response_no_more: No more can be added.
   reply:
     not_found: Voting data could not be found. Therefore, you cannot vote.
     closed: Voting is now closed.

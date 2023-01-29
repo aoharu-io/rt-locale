@@ -46,6 +46,7 @@ ja:
       item:
         label: 項目
         default: UDK姉貴
+      response_no_more: これ以上追加できません。
   reply:
     not_found: 投票データが見つかりませんでした。なので、投票はできません。
     closed: 投票は締め切られました。
