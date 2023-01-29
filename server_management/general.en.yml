@@ -1,0 +1,4 @@
+en:
+  auto_reply:
+    name: Auto Reply
+    log: "%{name} generated an auto-reply named %{setting_name}."

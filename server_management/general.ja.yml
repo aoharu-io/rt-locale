@@ -1,0 +1,4 @@
+ja:
+  auto_reply:
+    name: 自動返信
+    log: "%{name}が%{setting_name}という名前の自動返信を発生させました。"
