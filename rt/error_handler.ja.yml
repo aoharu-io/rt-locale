@@ -25,5 +25,5 @@ ja:
     missing_role: "実行に必要なロールをあなたは持っていません。\n必要なロール：%{mentions}"
     missing_permissions: "あなたはこれを実行するのに必要な権限を持っていません。\n必要な権限：%{permission_names}"
     bot_missing_permissions: RTはこれを実行するのに必要な権限を持っていません。
-    guild_only: サーバーでしかこのコマンドは実行できません。
+    guild_only: サーバーでしかこれは実行できません。
   after_can: "%{time}秒後に実行が可能となります。"

@@ -25,5 +25,5 @@ en:
     missing_role: "You do not have the required role for execution.\nRoles required: %{mentions}"
     missing_permissions: "You do not have the necessary authorization to do this.\nRequired Authority: %{permission_names}"
     bot_missing_permissions: RT does not have the necessary permissions to do this.
-    guild_only: This command can only be executed on a server.
+    guild_only: This process can only be executed on a server.
   after_can: "Execution will be available after %{time} seconds."

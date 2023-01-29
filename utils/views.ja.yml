@@ -1,0 +1,7 @@
+ja:
+  change_page_modal:
+    page_label: ページ
+    title: ページ入力
+    response_error: 整数を入力してください。
+  page_view:
+    response_none: まだ何も表示するものがないです。

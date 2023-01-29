@@ -1,0 +1,7 @@
+en:
+  change_page_modal:
+    page_label: Page
+    title: Page Input
+    response_error: Please enter an integer.
+  page_view:
+    response_none: There is nothing to display yet.
