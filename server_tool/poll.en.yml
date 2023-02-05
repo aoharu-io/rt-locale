@@ -1,21 +1,23 @@
 en:
-  command:
-    description: Start a poll.
-    describe:
-      title: Poll title.
-      details: Poll instructions.
-      max: The maximum number of votes that can be cast.
-      min: The minimum number of votes that can be cast.
-      anonymous: Whether to allow anonymous voting.
-      lifetime: Voting Period. Unit is days.
-      hidden: Whether the voting results can be displayed during the voting process.
-      manageable: Whether anyone can edit the ballot.
-    reply:
-      footer: RT's poll
-      fields:
-        deadline_name: Deadline
-        details_name: Details
-  view:
+  cmds:
+    manage_description: View and manage the active voting panels.
+    create:
+      description: Start a poll.
+      describe:
+        title: Poll title.
+        details: Poll instructions.
+        max: The maximum number of votes that can be cast.
+        min: The minimum number of votes that can be cast.
+        anonymous: Whether to allow anonymous voting.
+        lifetime: Voting Period. Unit is days.
+        hidden: Whether the voting results can be displayed during the voting process.
+        manageable: Whether anyone can edit the ballot.
+      reply:
+        footer: RT's poll
+        fields:
+          deadline_name: Deadline
+          details_name: Details
+  ui:
     normal:
       vote:
         label: Vote
@@ -47,6 +49,9 @@ en:
         label: Item
         default: SCOOOP!!!
       response_no_more: No more can be added.
+    manager:
+      delete_placeholder: Delete
+      title: Poll Manager
   reply:
     not_found: Voting data could not be found. Therefore, you cannot vote.
     closed: Voting is now closed.

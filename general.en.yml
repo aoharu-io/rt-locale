@@ -32,3 +32,5 @@ en:
     external_emojis: External Emojis
     add_reactions: Add reactions
   not_purchased: Since RT Plus was not purchased, the execution was aborted.
+  no_more_set: The maximum setting limit has been reached and no more settings can be made.
+  not_you: This is not for you.

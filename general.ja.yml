@@ -32,3 +32,5 @@ ja:
     external_emojis: 外部の絵文字の使用
     add_reactions: リアクションの追加
   not_purchased: RTプラスを購入していないので、実行は中止されました。
+  no_more_set: 設定上限に達したため、これ以上設定することができません。
+  not_you: これはあなたのためのものではありません。
