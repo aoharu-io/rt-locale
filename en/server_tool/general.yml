@@ -1,0 +1,16 @@
+nsfw:
+  description: Switches the NSFW setting for the channel on which this command is executed.
+  error: NSFW settings are not available on this channel.
+count:
+  description: Count the number of messages in the channel up to 5,000.
+  describe:
+    content: A string of characters that must be included in the message to be counted.
+  reply:
+    error: This feature is not available on this channel.
+    success: "Message Count: {count}"
+invites:
+  description: Create a ranking of the number of invitations.
+  describe:
+    use_mention: Whether to use mentions to display invited users.
+  reply:
+    title: Invitation Ranking
