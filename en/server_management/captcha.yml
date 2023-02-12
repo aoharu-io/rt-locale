@@ -1,21 +1,21 @@
-name: Captcha
+name: 認証
 on_success:
-  reason: Due to successful captcha.
-  event_log: Captcha was succeeded and the role was granted to {name}.
+  reason: 認証に成功したため。
+  event_log: 認証に成功したので{name}にロールを付与しました。
 on_timeout:
-  reason: Due to be timeout of captcha.
-  event_log: I kicked {name} because time is running out.
+  rason: 認証タイムアウトのため。
+  event_log: 時間切れなので{name}をキックしました。
 image:
-  on_start: Choose the same number as in the image.
-  retry: The maximum number of attempts possible has been reached, please start over.
-  invalid: That code is different.
+  on_start: 画像にあるのと同じ数字を選んでください。
+  retry: 試行可能回数の上限に達したのでやり直してください。
+  invalid: そのコードは違います。
 web:
-  on_start: Please do captcha at the following web page.
+  on_start: 以下のウェブページで認証を行なってください。
 word:
   title:
-    full: Enter the password
-    partial: Enter the password (Partial match)
-  placeholder: Good World, Come On!
-  incalid: The password is different.
-success: Captcha was succeeded!
-setting_not_found: This server is not configured for captcha. Please contact the administrator.
+    full: 合言葉の入力
+    partial: 合言葉の入力（部分一致）
+  placeholder: 良い世、来い世！
+  invalid: 合言葉が違います。
+success: 認証に成功しました！
+setting_not_found: このサーバーには認証の設定がされていません。管理者にお問合せしてください。
