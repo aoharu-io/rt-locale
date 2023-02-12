@@ -1,3 +1,3 @@
 auto_reply:
-  name: Auto Reply
-  log: "{name} generated an auto-reply named {setting_name}."
+  name: 自動返信
+  log: "{name}が{setting_name}という名前の自動返信を発生させました。"
