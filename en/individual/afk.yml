@@ -1,5 +1,0 @@
-at_deactivate: AFKは解除されました。
-command:
-  description: AFKの設定や解除をします。
-  describe:
-    content: AFKの内容です。未指定の場合解除扱いとなります。
