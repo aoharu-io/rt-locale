@@ -1,3 +1,3 @@
-name: Role Keeper
-reason: This person had a role in the past and the role keeper setting was ON.
-on_join_log: The {role_names} that were owned in the past are assigned to the {target} of the new entrant.
+name: ロールキーパー
+reason: この人は過去にロールを持っていた人で、ロールキーパーの設定がONだったから。
+on_join_log: 過去に所有していた{role_names}を新規入室者の{target}に付与しました。
