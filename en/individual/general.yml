@@ -1,0 +1,17 @@
+user:
+  description: ユーザーを検索して、ユーザーの情報を表示します。
+  describe_target: ユーザーの名前かIDです。
+  reply:
+    registered_at: 登録日時
+    avatar_url: アバターURL
+    on_server: サーバーでの情報
+    display_name: 表示名
+    joined_at: 参加日時
+    connecting: 接続中のボイスチャンネル
+search:
+  description: Googleの検索した後のURLを作ります。
+  describe_query: 検索に使うキーワードです。
+calculator:
+  description: 計算機です。
+  describe_formula: 計算する式です。
+  reply_error: 使用できない文字があるか形式がおかしいため、計算を実行することができませんでした。
