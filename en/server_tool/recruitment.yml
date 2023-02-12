@@ -1,0 +1,34 @@
+cmds:
+  create:
+    description: 募集パネルを作成します。
+    describe:
+      title: 募集パネルのタイトルです。
+      description: 募集パネルの詳細です。
+      max: 応募可能な人数です。デフォルトが0で、0の場合は無制限です。
+      lifetime: 何日後まで募集をするか。デフォルトは0.0で、0.0の場合は無制限です。
+  responses:
+    success:
+      footer: RTの募集パネル
+      fields:
+        now_name: 現在の応募状況
+  manage_description: 募集パネルの一覧表示と管理をします。
+ui:
+  main:
+    responses:
+      not_found: 募集パネルのデータが見つかりませんでした。
+      success:
+        applied: 応募しました。
+        declined: 辞退しました。
+      already:
+        applied: 既にあなたは応募済みです。
+        declined: 既にあなたは辞退した後の状態です。
+      closed:
+        for_reply: 募集期間外なので、対応できません。
+        for_edit: 募集は終了しました。
+      cant_accept_any_more: 応募人数が上限に達しているので対応できません。
+    apply_label: 応募
+    decline_label: 辞退
+    status_label: 状況
+    close_label: 締め切る
+  viewer_title: 応募状況
+  manager_title: 募集管理
