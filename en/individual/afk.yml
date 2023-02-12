@@ -1,0 +1,5 @@
+at_deactivate: AFK has been canceled.
+command:
+  description: Set or cancel AFK.
+  describe:
+    content: AFK Contents. If not specified, it will be treated as a cancellation.

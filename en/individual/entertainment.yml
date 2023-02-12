@@ -1,0 +1,25 @@
+fortune:
+  description: Pull a fortune (omikuji).
+  map:
+    lv9: Exceptional Luck
+    lv8: Incredible Luck
+    lv7: Excellent Luck
+    lv6: Moderate Luck
+    lv5: Mild Luck
+    lv4: Some Luck
+    lv3: Good Luck
+    lv2: Hopeful Future
+    lv1: Bad Luck
+    lv0: Terrible Luck
+  reply:
+    title: Your fortune is...
+    footer: You can do it as many times as you want, but of course, you know what I mean.
+    rare: What did you do? You can't usually pull this off.
+game_package:
+  description: Create a collage image of the game package.
+  args:
+    describe:
+      type: The type of game console for the game package to be created.
+      material: This image is to be embedded in the game package image.
+  reply:
+    not_supported_file_type: That file type is not supported.
