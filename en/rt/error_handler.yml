@@ -1,28 +1,28 @@
 bad_request:
-  title: Invalid request
-  description: I am unable to accommodate that request.
+  title: 無効なリクエスト
+  description: そのリクエストには対応することができません。
 forbidden:
-  title: Forbidden
-  description: You are not authorized to do this.
+  title: 禁止
+  description: あなたはこれを実行する権限がありません。
 not_found:
-  title: Not Found
-  description: Sorry, I didn't know what you were indicating.
+  title: 未知のリソース
+  description: すみませんが何を示しているのかわかりませんでした。
 too_many_requests:
-  title: Too Many Requests
-  description: I have too many requests and I am in cool down.
+  title: リクエスト過多
+  description: リクエストが多すぎるのでクールダウン中です。
 internal_server_error:
-  title: Internal Server Error
+  title: 内部サーバーエラー
   description: |-
-    An error occurred during processing. If this error persists, please contact support.
-    {error_text}
-general: "Error message:\n```python\n{error_message}\n```"
-transformer: "Value failed to process: `{value}`."
-translation: Language processing failed.
+    処理中にエラーが発生しました。もしこのエラーが修正されないようでしたら、サポートまでご連絡お願いします。
+    {error_message}
+general: "エラーメッセージ：\n{error_message}"
+transformer: 処理に失敗した値：`{value}`
+translation: 言語処理に失敗しました。
 check_failure:
-  default: "Some consistency check failed.\nCode: {code}"
-  no_private_message: This cannot be done by DM
-  missing_role: "You do not have the required role for execution.\nRoles required: {mentions}"
-  missing_permissions: "You do not have the necessary authorization to do this.\nRequired Authority: {permission_names}"
-  bot_missing_permissions: RT does not have the necessary permissions to do this.
-  guild_only: This process can only be executed on a server.
-after_can: "Execution will be available after {time} seconds."
+  default: "何かしらの整合性チェックに失敗しました。\nコード：{code}"
+  no_private_message: DMでこれを実行することはできません。
+  missing_role: "実行に必要なロールをあなたは持っていません。\n必要なロール：{mentions}"
+  missing_permissions: "あなたはこれを実行するのに必要な権限を持っていません。\n必要な権限：{permission_names}"
+  bot_missing_permissions: RTはこれを実行するのに必要な権限を持っていません。
+  guild_only: サーバーでしかこれは実行できません。
+after_can: "{time}秒後に実行が可能となります。"
