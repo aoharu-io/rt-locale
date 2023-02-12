@@ -1,4 +1,4 @@
-name: NG Nick Name
-reason: Because some of the nicknames were registered as NG words.
-log: The {name} nicknames contained NG words, so they have been reverted to their original form.
-notify: Your nickname contained NG words, so we have reverted it back to the way it was before the change.
+name: NGニックネーム
+reason: ニックネームの一部がNGワードとして登録されていたから。
+log: "{name}のニックネームにNGワードが含まれていたので、変更前に戻しました。"
+notify: あなたのニックネームにNGワードが含まれていたので、変更前に戻しました。
