@@ -1,26 +1,26 @@
-ping_description: Displays the communication status of RT.
+ping_description: RTの通信状況を表示します。
 language:
-  description: Set the language of RT.
+  description: RTの言語設定を行います。
   args:
     target:
-      describe: Subject of setting.
+      describe: 設定の対象です。
       choices:
-        guild: server
-        user: user
+        guild: サーバー
+        user: あなた
     language_code:
-      describe: The code of the language to be set.
+      describe: 設定する言語コードです。
 purchase:
-  description: View the RT Plus purchase link.
+  description: RTプラスの購入リンクを表示します。
   reply:
-    content: Thank you for your interest in purchasing. You can go to the purchase page by clicking the button below.
-    yearly: Yearly amount
-    monthly: Monthly amount
+    content: 購入のご検討ありがとうございます。以下のボタンを押すことで購入画面に行くことができます。
+    yearly: 年額
+    monthly: 月額
 is_plus:
-  description: Indicates whether the server has the Plus version of RT applied.
+  description: サーバーにプラス版のRTが適用されているかどうかを表示します。
 help:
-  description: Displays information about RT.
+  description: RTについての情報を表示します。
   reply:
-    description: This bot aims for high functionality and high stability.
-    website: Website
-    dashboard: Dashboard
-    document: Document
+    description: Rextが運営する高機能で高安定性を目指すBotです。
+    website: ウェブサイト
+    dashboard: ダッシュボード
+    document: 説明書
