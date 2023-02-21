@@ -4,3 +4,12 @@ auto_reply:
 join_leave_message:
   name: 入退出メッセージ
   log: "{mode}メッセージをチャンネル{channel}に送信しました。"
+server_bbs_notification:
+  name: サーバー掲示板通知
+  notification_setting: 通知設定
+  i_set_notification: |-
+    {mode}の通知が設定されました。
+    なので、{time}にこれを通知します。
+  time_to_act: "{mode}の時間だよ！"
+  lets_act: "{command}を実行して、掲示板での表示順位を上げよう。"
+  log: サーバー掲示板の`{mode}`が可能なことの通知をしました。
