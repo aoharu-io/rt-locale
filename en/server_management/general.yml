@@ -1,3 +1,6 @@
 auto_reply:
   name: Auto Reply
   log: "{name} generated an auto-reply named {setting_name}."
+join_leave_message:
+  name: Join Leave Message
+  log: Send {mode} message to channel {channel}.
