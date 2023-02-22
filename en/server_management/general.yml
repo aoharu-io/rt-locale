@@ -13,3 +13,8 @@ server_bbs_notification:
   time_to_act: Time to {mode}!
   lets_act: Execute {command} to improve the server ranking on the board.
   log: Notification of possible `{mode}` of the server bulletin board.
+translation:
+  name: Translation
+  context_menu_name: Translate it
+  make_public: Published in
+  published_by: This message was created by {mention}.

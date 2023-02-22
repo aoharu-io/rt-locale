@@ -2,3 +2,7 @@ deadline: 期限
 no_more_set: これ以上設定できません。
 not_for_you: これは、あなたのものではありません。
 delete: 削除
+you: あなた
+cooldown: |-
+  {something}はクールダウン中です。
+  {retry_after}秒後にもう一度お試しください。

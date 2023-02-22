@@ -13,3 +13,8 @@ server_bbs_notification:
   time_to_act: "{mode}の時間だよ！"
   lets_act: "{command}を実行して、掲示板での表示順位を上げよう。"
   log: サーバー掲示板の`{mode}`が可能なことの通知をしました。
+translation:
+  name: 翻訳
+  context_menu_name: 翻訳する
+  make_public: 誰でも見れるようにする
+  published_by: このメッセージは{mention}により作られました。
