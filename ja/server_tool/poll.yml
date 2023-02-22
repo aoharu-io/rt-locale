@@ -1,4 +1,5 @@
 cmds:
+  super_description: 投票パネルの作成や管理をするためのコマンドです。
   manage_description: 稼働中の投票パネルを表示して、管理を行います。
   create:
     description: 投票パネルを作るコマンドです。

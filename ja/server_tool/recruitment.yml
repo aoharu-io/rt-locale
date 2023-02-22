@@ -1,4 +1,5 @@
 cmds:
+  super_description: 募集パネルの作成や管理をするためのコマンドです。
   create:
     description: 募集パネルを作成します。
     describe:
