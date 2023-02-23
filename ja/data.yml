@@ -6,3 +6,4 @@ you: あなた
 cooldown: |-
   {something}はクールダウン中です。
   {retry_after}秒後にもう一度お試しください。
+cooldown_no_retry_after: "{something}はクールダウン中です。"
