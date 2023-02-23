@@ -21,3 +21,7 @@ translation:
 channel_status:
   name: チャンネルステータス
   log: チャンネル{channel_name}の名前を{name}に設定。
+message_expander:
+  name: メッセージ展開
+  more_embeds: （元のメッセージには後{length}個の埋め込みがあります。）
+  more_images: （元のメッセージには後{length}個の添付画像があります。）

@@ -21,3 +21,7 @@ translation:
 channel_status:
   name: Channel Status
   log: Set the name of the channel {channel_name} to {name}.
+message_expander:
+  name: Message Expander
+  more_embeds: (The original message has {length} embeds after it.)
+  more_images: (The original message has {length} images after it.)
