@@ -18,6 +18,12 @@ translation:
   context_menu_name: 翻訳する
   make_public: 誰でも見れるようにする
   published_by: このメッセージは{mention}により作られました。
+  log: |-
+    Translation in the translation channel.
+    Content:
+    ````
+    {cleaned_content}
+    ```
 channel_status:
   name: チャンネルステータス
   log: チャンネル{channel_name}の名前を{name}に設定。
@@ -25,3 +31,4 @@ message_expander:
   name: メッセージ展開
   more_embeds: （元のメッセージには後{length}個の埋め込みがあります。）
   more_images: （元のメッセージには後{length}個の添付画像があります。）
+  log: メッセージの展開：{message_jump_url}

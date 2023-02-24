@@ -18,6 +18,12 @@ translation:
   context_menu_name: Translate it
   make_public: Published in
   published_by: This message was created by {mention}.
+  log: |-
+    翻訳チャンネルでの翻訳の実施。
+    内容：
+    ```
+    {cleaned_content}
+    ```
 channel_status:
   name: Channel Status
   log: Set the name of the channel {channel_name} to {name}.
@@ -25,3 +31,4 @@ message_expander:
   name: Message Expander
   more_embeds: (The original message has {length} embeds after it.)
   more_images: (The original message has {length} images after it.)
+  log: "Expand message: {message_jump_url}"
