@@ -19,9 +19,9 @@ translation:
   make_public: Published in
   published_by: This message was created by {mention}.
   log: |-
-    翻訳チャンネルでの翻訳の実施。
-    内容：
-    ```
+    Translation in the translation channel.
+    Content:
+    ````
     {cleaned_content}
     ```
 channel_status:
@@ -32,3 +32,6 @@ message_expander:
   more_embeds: (The original message has {length} embeds after it.)
   more_images: (The original message has {length} images after it.)
   log: "Expand message: {message_jump_url}"
+voice_role:
+  name: Voice Role
+  log: "{action} voice role {role} to {member}."

@@ -7,3 +7,9 @@ cooldown: |-
   {something} is on cool down.
   Retry after {retry_after}.
 cooldown_no_retry_after: "{something} is on cool down."
+actions:
+  role:
+    add: add
+    add_title: Add
+    remove: remove
+    remove_title: Remove

@@ -7,3 +7,9 @@ cooldown: |-
   {something}はクールダウン中です。
   {retry_after}秒後にもう一度お試しください。
 cooldown_no_retry_after: "{something}はクールダウン中です。"
+actions:
+  role:
+    add: 追加
+    add_title: 追加
+    remove: 削除
+    remove_title: 削除
