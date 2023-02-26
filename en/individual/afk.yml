@@ -1,5 +1,5 @@
-at_deactivate: AFKは解除されました。
+at_deactivate: AFK has been canceled.
 command:
-  description: AFKの設定や解除をします。
+  description: Set or cancel AFK.
   describe:
-    content: AFKの内容です。未指定の場合解除扱いとなります。
+    content: AFK Contents. If not specified, it will be treated as a cancellation.
