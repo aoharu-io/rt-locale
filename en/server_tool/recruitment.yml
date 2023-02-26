@@ -1,34 +1,35 @@
 cmds:
+  super_description: This command is used to create and manage recruitment panels.
   create:
-    description: 募集パネルを作成します。
+    description: Create a recruitment panel.
     describe:
-      title: 募集パネルのタイトルです。
-      description: 募集パネルの詳細です。
-      max: 応募可能な人数です。デフォルトが0で、0の場合は無制限です。
-      lifetime: 何日後まで募集をするか。デフォルトは0.0で、0.0の場合は無制限です。
+      title: The title of the panel for which the application is sought.
+      description: Details of the recruitment panel.
+      max: The number of applicants allowed. Defaults to 0, with 0 being unlimited.
+      lifetime: How many days to wait for the recruitment. Defaults to 0.0, with 0.0 being unlimited.
   responses:
     success:
-      footer: RTの募集パネル
+      footer: Recruitment panel for RT
       fields:
-        now_name: 現在の応募状況
-  manage_description: 募集パネルの一覧表示と管理をします。
+        now_name: Current Applications
+  manage_description: List and manage recruitment panels.
 ui:
   main:
     responses:
-      not_found: 募集パネルのデータが見つかりませんでした。
+      not_found: No data was found for the recruitment panel.
       success:
-        applied: 応募しました。
-        declined: 辞退しました。
+        applied: Applied.
+        declined: Declined.
       already:
-        applied: 既にあなたは応募済みです。
-        declined: 既にあなたは辞退した後の状態です。
+        applied: You have already applied.
+        declined: You are already in a state after you declined.
       closed:
-        for_reply: 募集期間外なので、対応できません。
-        for_edit: 募集は終了しました。
-      cant_accept_any_more: 応募人数が上限に達しているので対応できません。
-    apply_label: 応募
-    decline_label: 辞退
-    status_label: 状況
-    close_label: 締め切る
-  viewer_title: 応募状況
-  manager_title: 募集管理
+        for_reply: Since it is outside the application period, we are unable to respond.
+        for_edit: Applications have been closed.
+      cant_accept_any_more: We are unable to respond because the maximum number of applicants has been reached.
+    apply_label: Apply
+    decline_label: Decine
+    status_label: Status
+    close_label: Close
+  viewer_title: Application Status
+  manager_title: Recruitment Management
