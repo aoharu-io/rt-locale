@@ -14,3 +14,13 @@ invites:
     use_mention: Whether to use mentions to display invited users.
   reply:
     title: Invitation Ranking
+sender:
+  command:
+    description: Sends a message based on the message code created in the dashboard.
+  modal:
+    title: Enter message code
+    input:
+      label: Message Code
+      placeholder: |-
+        {"author":{"name":"YJSNPI","avatar_url":"https://i.imgur.com/Uik1PSU.png"},"body":{"content":"First of all, we have a rooftop. Aren't you sunbathing?"}}
+    response_error: Message code failed to load. Is the message code the correct code?

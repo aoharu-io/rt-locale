@@ -14,3 +14,13 @@ invites:
     use_mention: 招待したユーザーの表示にメンションを使うかどうか。
   reply:
     title: 招待数ランキング
+sender:
+  command:
+    description: ダッシュボードで作成されたメッセージコードを元に、メッセージを送信します。
+  modal:
+    title: メッセージコードの入力
+    input:
+      label: メッセージコード
+      placeholder: |-
+        {"author":{"name":"野○先輩","avatar_url":"https://i.imgur.com/Uik1PSU.png"},"body":{"content":"まずうちさ、屋上あんだけど、焼いてかない？"}}
+    response_error: メッセージコードの読み込みに失敗しました。そのメッセージコードは正しいコードですか？
