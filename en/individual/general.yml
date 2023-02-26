@@ -15,3 +15,7 @@ calculator:
   description: Calculator.
   describe_formula: Formula to calculate.
   reply_error: The calculation could not be performed because of unavailable characters or incorrect formatting.
+timemachine:
+  description: Get a jump URL to a past message.
+  describe_day: How many days ago should the message be? If unspecified, it will be the first message.
+  response_none: There was no message.

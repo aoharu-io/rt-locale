@@ -15,3 +15,7 @@ calculator:
   description: 計算機です。
   describe_formula: 計算する式です。
   reply_error: 使用できない文字があるか形式がおかしいため、計算を実行することができませんでした。
+timemachine:
+  description: 過去のメッセージへのジャンプURLを取得します。
+  describe_day: 何日前のメッセージにするか。未指定の場合は、一番最初のメッセージとなります。
+  response_none: メッセージがありませんでした。
