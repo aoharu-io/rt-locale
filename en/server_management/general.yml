@@ -1,3 +1,40 @@
 auto_reply:
-  name: 自動返信
-  log: "{name}が{setting_name}という名前の自動返信を発生させました。"
+  name: Auto Reply
+  log: "{name} generated an auto-reply named {setting_name}."
+join_leave_message:
+  name: Join Leave Message
+  log: "Send {mode} message to channel {channel}."
+server_bbs_notification:
+  name: Server BBS Notification
+  notification_setting: Notification Setting
+  i_set_notification: |-
+    The {mode} notification has been set.
+    So I'm going to notify this at {time}.
+  time_to_act: "Time to {mode}!"
+  lets_act: "Execute {command} to improve the server ranking on the board."
+  log: Notification of possible `{mode}` of the server bulletin board.
+translation:
+  name: Translation
+  context_menu_name: Translate it
+  make_public: Published in
+  published_by: This message was created by {mention}.
+  log: |-
+    Translation in the translation channel.
+    Content:
+    ````
+    {cleaned_content}
+    ```
+channel_status:
+  name: Channel Status
+  log: Set the name of the channel {channel_name} to {name}.
+message_expander:
+  name: Message Expander
+  more_embeds: (The original message has {length} embeds after it.)
+  more_images: (The original message has {length} images after it.)
+  log: 'Expand message: {message_jump_url}'
+voice_role:
+  name: Voice Role
+  log: "{action} voice role {role} to {member}."
+role_message:
+  name: Role Message
+  log: "Role messages set in {role} were sent to {member}."
