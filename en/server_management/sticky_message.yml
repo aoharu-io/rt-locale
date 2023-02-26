@@ -1,3 +1,3 @@
-name: 付箋メッセージ
-failed_to_delete_before_message: 前回送信した付箋メッセージの削除に失敗しました。
-failed_to_send_message: 付箋メッセージの送信に失敗しました。
+name: Sticky Message
+failed_to_delete_before_message: Failed to delete the previously sent sticky message.
+failed_to_send_message: Failed to send sticky message.
