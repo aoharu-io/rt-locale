@@ -35,3 +35,6 @@ message_expander:
 voice_role:
   name: Voice Role
   log: "{action} voice role {role} to {member}."
+role_message:
+  name: Role Message
+  log: Role messages set in {role} were sent to {member}.

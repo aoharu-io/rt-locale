@@ -13,3 +13,4 @@ actions:
     add_title: Add
     remove: remove
     remove_title: Remove
+must_be_mesasgeable: The process could not be executed because the channel is not capable of sending messages.

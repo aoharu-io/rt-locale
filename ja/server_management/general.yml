@@ -35,3 +35,6 @@ message_expander:
 voice_role:
   name: ボイスロール
   log: "{member}にボイスロール{role}を{action}。"
+role_message:
+  name: ロールメッセージ
+  log: "{role}に設定されていたロールメッセージを{member}に送信しました。"
