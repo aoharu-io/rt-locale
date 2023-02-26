@@ -1,16 +1,26 @@
 nsfw:
-  description: このコマンドを実行したチャンネルのNSFW設定を切り替えます。
-  error: このチャンネルでNSFWの設定をすることはできません。
+  description: Switches the NSFW setting for the channel on which this command is executed.
+  error: NSFW settings are not available on this channel.
 count:
-  description: チャンネル内のメッセージ数を最大5,000件までカウントします。
+  description: Count the number of messages in the channel up to 5,000.
   describe:
-    content: カウントするメッセージに含まれる必要がある文字列です。
+    content: A string of characters that must be included in the message to be counted.
   reply:
-    error: このチャンネルでこの機能は使うことができません。
-    success: メッセージ数：{count}
+    error: This feature is not available on this channel.
+    success: 'Message Count: {count}'
 invites:
-  description: 招待数のランキングを作成します。
+  description: Create a ranking of the number of invitations.
   describe:
-    use_mention: 招待したユーザーの表示にメンションを使うかどうか。
+    use_mention: Whether to use mentions to display invited users.
   reply:
-    title: 招待数ランキング
+    title: Invitation Ranking
+sender:
+  command:
+    description: Sends a message based on the message code created in the dashboard.
+  modal:
+    title: Enter message code
+    input:
+      label: Message Code
+      placeholder: |-
+        {"author":{"name":"YJSNPI","avatar_url":"https://i.imgur.com/Uik1PSU.png"},"body":{"content":"First of all, we have a rooftop. Aren't you sunbathing?"}}
+    response_error: Message code failed to load. Is the message code the correct code?
