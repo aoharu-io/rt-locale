@@ -1,6 +1,6 @@
 change_page_modal:
-  page_label: ページ
-  title: ページ入力
-  response_error: 整数を入力してください。
+  page_label: Page
+  title: Page Input
+  response_error: Please enter an integer.
 page_view:
-  response_none: まだ何も表示するものがないです。
+  response_none: There is nothing to display yet.
