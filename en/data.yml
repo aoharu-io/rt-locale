@@ -2,3 +2,15 @@ deadline: Deadline
 no_more_set: The maximum setting limit has been reached and no more settings can be made.
 not_for_you: This is not for you.
 delete: Delete
+you: You
+cooldown: |-
+  {something} is on cool down.
+  Retry after {retry_after}.
+cooldown_no_retry_after: "{something} is on cool down."
+actions:
+  role:
+    add: add
+    add_title: Add
+    remove: remove
+    remove_title: Remove
+must_be_messageable: メッセージ送信が可能なチャンネルではないため、処理の実行ができませんでした。
