@@ -1,5 +1,5 @@
 name: Role Panel
 reason: Due to the use of role panel.
 log: "I have added roles named {role_names} to {name}."
-select_role: ロールを選択
+select_role: Select Role
 reset_roles: Reset Roles
