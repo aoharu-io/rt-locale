@@ -13,4 +13,4 @@ actions:
     add_title: Add
     remove: remove
     remove_title: Remove
-must_be_messageable: メッセージ送信が可能なチャンネルではないため、処理の実行ができませんでした。
+must_be_messageable: The process could not be executed because the channel is not capable of sending messages.
