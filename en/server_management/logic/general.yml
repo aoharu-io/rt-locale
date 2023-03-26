@@ -1,0 +1,12 @@
+auto_reply:
+  name: Auto Reply
+  log: "{name} generated an auto-reply named {setting_name}."
+join_leave_message:
+  name: Join Leave Message
+  log: Send {mode} message to channel {channel}.
+role_message:
+  name: Role Message
+  log: Role messages set in {role} were sent to {member}.
+voice_role:
+  name: Voice Role
+  log: "{action} voice role {role} to {member}."

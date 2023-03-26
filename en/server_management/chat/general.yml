@@ -1,0 +1,16 @@
+translation:
+  name: Translation
+  context_menu_name: Translate it
+  make_public: Published in
+  published_by: This message was created by {mention}.
+  log: |-
+    Translation in the translation channel.
+    Content:
+    ````
+    {cleaned_content}
+    ```
+message_expander:
+  name: Message Expander
+  more_embeds: (The original message has {length} embeds after it.)
+  more_images: (The original message has {length} images after it.)
+  log: "Expand message: {message_jump_url}"

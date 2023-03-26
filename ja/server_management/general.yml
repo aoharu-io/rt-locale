@@ -1,9 +1,3 @@
-auto_reply:
-  name: 自動返信
-  log: "{name}が{setting_name}という名前の自動返信を発生させました。"
-join_leave_message:
-  name: 入退出メッセージ
-  log: "{mode}メッセージをチャンネル{channel}に送信。"
 server_bbs_notification:
   name: サーバー掲示板通知
   notification_setting: 通知設定
@@ -13,28 +7,10 @@ server_bbs_notification:
   time_to_act: "{mode}の時間だよ！"
   lets_act: "{command}を実行して、掲示板での表示順位を上げよう。"
   log: サーバー掲示板の`{mode}`が可能なことの通知。
-translation:
-  name: 翻訳
-  context_menu_name: 翻訳する
-  make_public: 誰でも見れるようにする
-  published_by: このメッセージは{mention}により作られました。
-  log: |-
-    翻訳チャンネルでの翻訳の実施。
-    内容：
-    ```
-    {cleaned_content}
-    ```
 channel_status:
   name: チャンネルステータス
   log: チャンネル{channel_name}の名前を{name}に設定。
-message_expander:
-  name: メッセージ展開
-  more_embeds: （元のメッセージには後{length}個の埋め込みがあります。）
-  more_images: （元のメッセージには後{length}個の添付画像があります。）
-  log: メッセージの展開：{message_jump_url}
-voice_role:
-  name: ボイスロール
-  log: "{member}にボイスロール{role}を{action}。"
-role_message:
-  name: ロールメッセージ
-  log: "{role}に設定されていたロールメッセージを{member}に送信しました。"
+role_keeper:
+  name: ロールキーパー
+  reason: この人は過去にロールを持っていた人で、ロールキーパーの設定がONだったから。
+  on_join_log: 過去に所有していた{role_names}を新規入室者の{target}に付与。

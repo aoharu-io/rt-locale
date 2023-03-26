@@ -1,0 +1,16 @@
+translation:
+  name: 翻訳
+  context_menu_name: 翻訳する
+  make_public: 誰でも見れるようにする
+  published_by: このメッセージは{mention}により作られました。
+  log: |-
+    翻訳チャンネルでの翻訳の実施。
+    内容：
+    ```
+    {cleaned_content}
+    ```
+message_expander:
+  name: メッセージ展開
+  more_embeds: （元のメッセージには後{length}個の埋め込みがあります。）
+  more_images: （元のメッセージには後{length}個の添付画像があります。）
+  log: メッセージの展開：{message_jump_url}
