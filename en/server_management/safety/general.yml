@@ -1,0 +1,15 @@
+ng_nick_name:
+  name: NG Nick Name
+  reason: Because some of the nicknames were registered as NG words.
+  log: The {name} nicknames contained NG words, so they have been reverted to their original form.
+  notify: Your nickname contained NG words, so we have reverted it back to the way it was before the change.
+blocker:
+  name: Blocker
+  warning:
+    description: |-
+      Your message contained {target} to be blocked.
+      Therefore, your message has been deleted.
+      Note that this warning message contains the message you sent.
+      If you want to send it back with corrections, copy the contents of this message.
+    footer: This warning will not be sent even if blocked within the next 15 seconds. However, the message will disappear.
+  log: The message sent by member {member} contained {target} to be blocked.

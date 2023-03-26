@@ -14,3 +14,6 @@ actions:
     remove: 削除
     remove_title: 削除
 must_be_messageable: メッセージ送信が可能なチャンネルではないため、処理の実行ができませんでした。
+message:
+  emoji: 絵文字
+  sticker: スタンプ
