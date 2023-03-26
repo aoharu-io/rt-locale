@@ -14,3 +14,6 @@ actions:
     remove: remove
     remove_title: Remove
 must_be_messageable: The process could not be executed because the channel is not capable of sending messages.
+message:
+  emoji: 絵文字
+  sticker: スタンプ
