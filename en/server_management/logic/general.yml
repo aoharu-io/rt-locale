@@ -1,0 +1,12 @@
+auto_reply:
+  name: 自動返信
+  log: "{name}が{setting_name}という名前の自動返信を発生させました。"
+join_leave_message:
+  name: 入退出メッセージ
+  log: "{mode}メッセージをチャンネル{channel}に送信。"
+voice_role:
+  name: ボイスロール
+  log: "{member}にボイスロール{role}を{action}。"
+role_message:
+  name: ロールメッセージ
+  log: "{role}に設定されていたロールメッセージを{member}に送信しました。"
