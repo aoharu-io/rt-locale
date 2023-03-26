@@ -1,0 +1,21 @@
+name: Captcha
+on_success:
+  reason: Due to successful captcha.
+  event_log: Captcha was succeeded and the role was granted to {name}.
+on_timeout:
+  rason: Because of the authentication timeout.
+  event_log: I kicked {name} because time is running out.
+image:
+  on_start: Choose the same number as in the image.
+  retry: The maximum number of attempts possible has been reached, please start over.
+  invalid: That code is different.
+web:
+  on_start: Please do captcha at the following web page.
+word:
+  title:
+    full: Enter the password
+    partial: Enter the password (Partial match)
+  placeholder: Good World, Come On!
+  invalid: The password is different.
+success: Captcha was succeeded!
+setting_not_found: This server is not configured for captcha. Please contact the administrator.
