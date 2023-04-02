@@ -1,0 +1,30 @@
+cooldown: It is currently on cooldown. Please try again in <t:{retry_after:.0f}:R>.
+data_manager:
+  general: |-
+    Something went wrong:
+    ```python
+    {}
+    ```
+  not_found: Could not find that global chat.
+  already_set: Global chat is already set up.
+  invalid_password: The password is different.
+  no_more_set_on_guild: No more global chat can be set up on this server.
+  no_more_connect: No more channels can be connected to this global chat.
+cmd:
+  description: This command is used to configure global chat settings.
+  connect:
+    description: Connect to global chat.
+    describe:
+      id: The ID of the global chat to connect to.
+    response:
+      password: Password
+      if_exists: (Skip if none)
+      not_tc: The channel connecting to the global chat must be a text channel.
+  disconnect:
+    description: Disconnect from global chat on the channel where the command was executed.
+  get_id:
+    description: Get the ID of the global chat connected to the channel where the command was executed.
+    response: The ID of the global chat connected here is `{}`.
+  common:
+    response:
+      not_set_yet: There is no global chat set up for this channel.
