@@ -1,0 +1,30 @@
+cooldown: 現在クールダウン中です。<t:{retry_after:.0f}:R>にもう一度お試しください。
+data_manager:
+  general: |-
+    何らかのエラーが発生しました：
+    ```python
+    {}
+    ```
+  not_found: そのグローバルチャットが見つかりませんでした。
+  already_set: 既にグローバルチャットが設定されています。
+  invalid_password: パスワードが違います。
+  no_more_set_on_guild: これ以上このサーバーでグローバルチャットを設定することはできません。
+  no_more_connect: これ以上このグローバルチャットにチャンネルを接続できません。
+cmd:
+  description: グローバルチャットの設定を行うためのコマンドです。
+  connect:
+    description: グローバルチャットに接続します。
+    describe:
+      id: 接続するグローバルチャットのIDです。
+    response:
+      password: パスワード
+      if_exists: '（無ければスキップ）'
+      not_tc: グローバルチャットに接続するチャンネルは、テキストチャンネルでなければいけません。
+  disconnect:
+    description: コマンドを実行したチャンネルでグローバルチャットから切断します。
+  get_id:
+    description:
+      response: ここに繋がっているグローバルチャットのIDは`{}`です。
+    common:
+      response:
+        not_set_yet: このチャンネルにはグローバルチャットが設定されていません。
